@@ -1,0 +1,4 @@
+title = "RustUse use-web gitleaks configuration"
+
+[extend]
+useDefault = true

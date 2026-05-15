@@ -1,0 +1,111 @@
+[workspace]
+release = false
+release_always = false
+changelog_update = false
+pr_labels = ["release"]
+max_analyze_commits = 2000
+
+[[package]]
+name = "use-http"
+release = true
+version_group = "rustuse-web"
+
+[[package]]
+name = "use-method"
+release = true
+version_group = "rustuse-web"
+
+[[package]]
+name = "use-header"
+release = true
+version_group = "rustuse-web"
+
+[[package]]
+name = "use-status"
+release = true
+version_group = "rustuse-web"
+
+[[package]]
+name = "use-cookie"
+release = true
+version_group = "rustuse-web"
+
+[[package]]
+name = "use-mime"
+release = true
+version_group = "rustuse-web"
+
+[[package]]
+name = "use-query"
+release = true
+version_group = "rustuse-web"
+
+[[package]]
+name = "use-uri"
+release = true
+version_group = "rustuse-web"
+
+[[package]]
+name = "use-url"
+release = true
+version_group = "rustuse-web"
+
+[[package]]
+name = "use-origin"
+release = true
+version_group = "rustuse-web"
+
+[[package]]
+name = "use-route"
+release = true
+version_group = "rustuse-web"
+
+[[package]]
+name = "use-html"
+release = true
+version_group = "rustuse-web"
+
+[[package]]
+name = "use-css"
+release = true
+version_group = "rustuse-web"
+
+[[package]]
+name = "use-web"
+release = true
+version_group = "rustuse-web"
+changelog_update = true
+changelog_path = "./CHANGELOG.md"
+changelog_include = [
+  "use-http",
+  "use-method",
+  "use-header",
+  "use-status",
+  "use-cookie",
+  "use-mime",
+  "use-query",
+  "use-uri",
+  "use-url",
+  "use-origin",
+  "use-route",
+  "use-html",
+  "use-css",
+]
+
+[changelog]
+header = """# Changelog
+
+## Unreleased
+"""
+protect_breaking_commits = true
+sort_commits = "oldest"
+commit_parsers = [
+  { message = "^feat(?:\\([^)]+\\))?!?: .+", group = "Added" },
+  { message = "^fix(?:\\([^)]+\\))?!?: .+", group = "Fixed" },
+  { message = "^security(?:\\([^)]+\\))?!?: .+", group = "Security" },
+  { message = "^(?:refactor|perf|change)(?:\\([^)]+\\))?!?: .+", group = "Changed" },
+  { message = "^docs(?:\\([^)]+\\))?!?: .+", group = "Documentation" },
+  { message = "^(?:build|ci|chore|deps|test)(?:\\([^)]+\\))?!?: .+", group = "Tooling" },
+  { footer = "^changelog: ?ignore$", skip = true },
+  { message = "^.*", group = "Changed" },
+]
