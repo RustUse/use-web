@@ -7,10 +7,6 @@ name = "use-cookie"
 version = "0.0.1"
 
 [[package]]
-name = "use-css"
-version = "0.0.1"
-
-[[package]]
 name = "use-header"
 version = "0.0.1"
 
@@ -59,7 +55,6 @@ name = "use-web"
 version = "0.0.1"
 dependencies = [
  "use-cookie",
- "use-css",
  "use-header",
  "use-html",
  "use-http",
@@ -71,4 +66,9 @@ dependencies = [
  "use-status",
  "use-uri",
  "use-url",
+ "use-web-css",
 ]
+
+[[package]]
+name = "use-web-css"
+version = "0.0.1"

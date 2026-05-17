@@ -21,7 +21,7 @@ Every crate in this workspace is experimental while the release line remains bel
 - `use-origin`: origin extraction and same-origin helpers
 - `use-route`: route normalization and simple `:param` matching helpers
 - `use-html`: lightweight HTML extraction helpers
-- `use-css`: lightweight CSS declaration and value helpers
+- `use-web-css`: lightweight CSS declaration and value helpers, with the Rust library target kept as `use_css`
 
 ## Scope
 

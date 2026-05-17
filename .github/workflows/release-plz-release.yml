@@ -27,7 +27,7 @@ jobs:
         runs-on: ubuntu-latest
         env:
             PUBLISHED_CRATES: >-
-                use-http use-method use-header use-status use-cookie use-mime use-query use-uri use-url use-origin use-route use-html use-css use-web
+                use-http use-method use-header use-status use-cookie use-mime use-query use-uri use-url use-origin use-route use-html use-web-css use-web
         steps:
             - name: Check out repository
               uses: actions/checkout@v4

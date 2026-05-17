@@ -1,5 +1,5 @@
 [package]
-name = "use-css"
+name = "use-web-css"
 description = "Small CSS utility primitives for RustUse"
 publish = true
 authors.workspace = true
@@ -13,6 +13,9 @@ rust-version.workspace = true
 readme = "README.md"
 keywords = ["css", "style", "web", "property", "utility"]
 categories = ["web-programming", "parsing"]
+
+[lib]
+name = "use_css"
 
 [lints]
 workspace = true

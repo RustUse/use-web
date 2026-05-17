@@ -13,7 +13,7 @@ members = [
 	"crates/use-origin",
 	"crates/use-route",
 	"crates/use-html",
-	"crates/use-css",
+	"crates/use-web-css",
 ]
 resolver = "2"
 
@@ -44,7 +44,7 @@ first-publish-candidates = [
 	"use-origin",
 	"use-route",
 	"use-html",
-	"use-css",
+	"use-web-css",
 	"use-web",
 ]
 

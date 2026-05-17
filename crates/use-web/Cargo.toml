@@ -61,7 +61,7 @@ use-query = { version = "0.0.1", path = "../use-query", optional = true }
 use-origin = { version = "0.0.1", path = "../use-origin", optional = true }
 use-route = { version = "0.0.1", path = "../use-route", optional = true }
 use-html = { version = "0.0.1", path = "../use-html", optional = true }
-use-css = { version = "0.0.1", path = "../use-css", optional = true }
+use-css = { version = "0.0.1", package = "use-web-css", path = "../use-web-css", optional = true }
 
 [lints]
 workspace = true

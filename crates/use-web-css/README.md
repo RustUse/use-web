@@ -1,10 +1,13 @@
-# use-css
+# use-web-css
 
 Small CSS utility primitives for `RustUse`.
 
 ## Experimental
 
-`use-css` is experimental while the `use-web` workspace remains below `0.3.0`. Expect small API adjustments during the first release wave.
+`use-web-css` is experimental while the `use-web` workspace remains below `0.3.0`. Expect small API adjustments during the first release wave.
+
+The published package name is `use-web-css` so it avoids the existing crates.io
+collision on `use-css`, while the Rust library target remains `use_css`.
 
 ## Example
 
