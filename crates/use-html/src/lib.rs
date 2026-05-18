@@ -75,7 +75,7 @@ pub fn strip_tags_basic(input: &str) -> String {
             '<' => inside_tag = true,
             '>' => inside_tag = false,
             _ if !inside_tag => result.push(character),
-            _ => {}
+            _ => {},
         }
     }
 

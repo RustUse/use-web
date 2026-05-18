@@ -24,7 +24,7 @@ pub fn parse_mime(input: &str) -> Option<MimeType> {
     let (subtype, suffix) = match subtype_with_suffix.rsplit_once('+') {
         Some((subtype, suffix)) if !subtype.is_empty() && !suffix.is_empty() => {
             (subtype.to_string(), Some(suffix.to_string()))
-        }
+        },
         _ => (subtype_with_suffix.to_string(), None),
     };
 

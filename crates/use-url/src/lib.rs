@@ -131,7 +131,7 @@ pub fn remove_query(input: &str) -> String {
                 .map(|offset| &input[query_index + offset..])
                 .unwrap_or("");
             format!("{}{fragment}", &input[..query_index])
-        }
+        },
         None => input.to_string(),
     }
 }
