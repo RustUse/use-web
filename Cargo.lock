@@ -4,55 +4,55 @@ version = 4
 
 [[package]]
 name = "use-cookie"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-header"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-html"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-http"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-method"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-mime"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-origin"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-query"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-route"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-status"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-uri"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-url"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-web"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
  "use-cookie",
  "use-header",
@@ -71,4 +71,4 @@ dependencies = [
 
 [[package]]
 name = "use-web-css"
-version = "0.0.1"
+version = "0.0.2"

@@ -49,19 +49,19 @@ full = [
 ]
 
 [dependencies]
-use-http = { version = "0.0.1", path = "../use-http", optional = true }
-use-method = { version = "0.0.1", path = "../use-method", optional = true }
-use-header = { version = "0.0.1", path = "../use-header", optional = true }
-use-status = { version = "0.0.1", path = "../use-status", optional = true }
-use-cookie = { version = "0.0.1", path = "../use-cookie", optional = true }
-use-mime = { version = "0.0.1", path = "../use-mime", optional = true }
-use-uri = { version = "0.0.1", path = "../use-uri", optional = true }
-use-url = { version = "0.0.1", path = "../use-url", optional = true }
-use-query = { version = "0.0.1", path = "../use-query", optional = true }
-use-origin = { version = "0.0.1", path = "../use-origin", optional = true }
-use-route = { version = "0.0.1", path = "../use-route", optional = true }
-use-html = { version = "0.0.1", path = "../use-html", optional = true }
-use-css = { version = "0.0.1", package = "use-web-css", path = "../use-web-css", optional = true }
+use-http = { version = "0.0.2", path = "../use-http", optional = true }
+use-method = { version = "0.0.2", path = "../use-method", optional = true }
+use-header = { version = "0.0.2", path = "../use-header", optional = true }
+use-status = { version = "0.0.2", path = "../use-status", optional = true }
+use-cookie = { version = "0.0.2", path = "../use-cookie", optional = true }
+use-mime = { version = "0.0.2", path = "../use-mime", optional = true }
+use-uri = { version = "0.0.2", path = "../use-uri", optional = true }
+use-url = { version = "0.0.2", path = "../use-url", optional = true }
+use-query = { version = "0.0.2", path = "../use-query", optional = true }
+use-origin = { version = "0.0.2", path = "../use-origin", optional = true }
+use-route = { version = "0.0.2", path = "../use-route", optional = true }
+use-html = { version = "0.0.2", path = "../use-html", optional = true }
+use-css = { version = "0.0.2", package = "use-web-css", path = "../use-web-css", optional = true }
 
 [lints]
 workspace = true
